@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_02/02_02_begin/02_02_begin.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_02/02_02_begin/02_02_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ex_Files_Spring_with_GraphQL.iml" filepath="$PROJECT_DIR$/.idea/Ex_Files_Spring_with_GraphQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_02/02_02_end/spring-graphql/hplus/src/main/main.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_02/02_02_end/spring-graphql/hplus/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_end/spring-graphql/hplus/src/main/main1.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_end/spring-graphql/hplus/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_begin/spring-graphql/hplus/src/main/main2.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_begin/spring-graphql/hplus/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_end/spring-graphql/hplus/src/test/test.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_end/spring-graphql/hplus/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_02/02_02_end/spring-graphql/hplus/src/test/test1.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_02/02_02_end/spring-graphql/hplus/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_begin/spring-graphql/hplus/src/test/test2.iml" filepath="$PROJECT_DIR$/Exercise Files/CH02/02_06/02_06_begin/spring-graphql/hplus/src/test/test2.iml" />
+    </modules>
+  </component>
+</project>
