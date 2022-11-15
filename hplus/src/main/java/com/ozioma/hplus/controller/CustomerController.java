@@ -32,7 +32,7 @@ public class CustomerController {
     }
 
     @MutationMapping
-    public Customer addCustomer(@Argument CustomerInput customerInput) {
+    public Customer addCustomer(@Argument(name="input") CustomerInput customerInput) {
         return this.customerRepository.saveAndFlush(customerInput.getCustomerEntity());
     }
 }

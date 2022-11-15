@@ -1,31 +1,104 @@
 type Customer {
     id: ID!
-    firstname: String!
-    lastname: String!
-    email: String!
-    phoneNumber: String!
-    address: String!
-    city: String!
-    state: String!
-    zipCode: String!
+    firstName: String
+    lastName: String
+    email: String
+    phone: String
+    address: String
+    city: String
+    state: String
+    zipCode: String
 }
 
 input CustomerInput {
-    firstname: String!
-    lastname: String!
+    firstName: String!
+    lastName: String!
     email: String!
-    phoneNumber: String!
+    phone: String!
     address: String!
     city: String!
     state: String!
     zipCode: String!
 }
 
+type Order {
+    id: ID!
+    customer: Customer
+    salesPerson: SalesPerson
+}
+
+input OrderInput {
+    id: ID!
+    customer: Float!
+    salesPersonId: Float!
+}
+
+type OrderLine {
+    id: ID!
+    order: Order
+    product: Product
+    quantity: Int
+}
+
+input OrderLineInput {
+    id: ID!
+    OrderId: String!
+    productId: String!
+    quantity: Int!
+}
+
+type Product {
+    id: ID!
+    name: String!
+    size: Int!
+    variety: String!
+    price: Float!
+    status: String!
+}
+
+input ProductInput {
+    id: ID!
+    name: String!
+    size: Int!
+    variety: String!
+    price: Float!
+    status: String!
+}
+
+type SalesPerson {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    email: String!
+    phone: String!
+    address: String!
+    city: String!
+    state: String!
+    zipCode: String!
+}
+
+input SalesPersonInput {
+    firstName: String!
+    lastName: String!
+    email: String!
+    phone: String!
+    address: String!
+    city: String!
+    state: String!
+    zipCode: String!
+}
 
 type Query {
     customers: [Customer]!
     customerById(id: ID): Customer
     customerByEmail(email: String): Customer
+    orders: [Order]!
+    orderById(id: ID): Order
+    products: [Product]!
+    productById(id: ID): Product
+    salesPersons: [SalesPerson]!
+    salesPersonById(id: ID): SalesPerson
+
 }
 
 type Mutation {
